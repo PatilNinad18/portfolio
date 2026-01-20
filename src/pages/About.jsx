@@ -7,13 +7,14 @@ import {
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
+import CTA from "../components/CTA";
 
 const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
         Hello, I'm{" "}
-        <span className='blue-gradient_text font-semibold drop-shadow'>
+        <span className='green-gradient_text font-semibold drop-shadow'>
           {" "}
           Ninad
         </span>{" "}
@@ -69,7 +70,7 @@ const About = () => {
 
       <hr className='border-slate-200' />
 
-      {/* <CTA /> */}
+      <CTA />
     </section>
   );
 };

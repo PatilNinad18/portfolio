@@ -19,26 +19,26 @@ const renderContent = {
         <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Hi, I am <span className='font-semibold'>Ninad</span> 👋
             <br />
-            A Web Developer....
+            I build software and love solving problems.
         </h1>
     ),
     2 : (
         <InfoBox
-            text="Worked with many companies and picked up many skills along the way"
+            text="Developed a strong skill set through project-based work and practical experience."
             link="/about"
             btnText="Learn More"
         />
     ),
     3 : (
         <InfoBox
-            text="Led multiple projects to success"
+            text="My Projects"
             link="/Projects"
             btnText="Learn More"
         />
     ),
     4 : (
         <InfoBox
-            text="Ready to work for freelance work"
+            text="Available for freelance work and open to all kinds of projects."
             link="/contact"
             btnText="Learn Talk"
         />
